@@ -21,6 +21,8 @@
               <b><%= lesson.title %></b>
               -
               <%= lesson.subtitle %>
+              
+              <%= link_to 'Video', current_lesson.video.to_s %>
             </li>
           <% end %>
         </ul>
